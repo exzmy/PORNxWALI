@@ -1,4 +1,4 @@
-# (C) ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
+# (C) ᯏ 𝚮𝚼𝚸𝚬꧊᱂ ! श्रेष्ठDont Remove Credit
 
 import asyncio, datetime, pytz
 from config import *
@@ -41,7 +41,7 @@ async def sts(client, message):
         quote=True
     )
 
-# (C) ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
+# (C) ᯏ 𝚮𝚼𝚸𝚬꧊᱂ ! श्रेष्ठ Remove Credit
 
 @Client.on_message(filters.command("start") & filters.private & filters.incoming)
 async def start(client, message):
@@ -100,7 +100,7 @@ async def start(client, message):
         )
         await message.reply_text("𝖲𝖾𝗅𝖾𝖼𝗍 𝖸𝗈𝗎𝗋 𝖯𝗋𝖾𝖿𝖾𝗋𝗋𝖾𝖽 𝖥𝗂𝗅𝖾 𝖢𝖺𝗍𝖾𝗀𝗈𝗋𝗒 👇🏻")
 
-# (C) ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
+# (C) ᯏ 𝚮𝚼𝚸𝚬꧊᱂ ! श्रेष्ठ # Dont Remove Credit
 
 @Client.on_message(filters.private & filters.text & ~filters.command("start"))
 async def handle_request(bot, message):
@@ -113,9 +113,9 @@ async def handle_request(bot, message):
         if not await db.has_premium_access(user_id):
             if not await check_verification(bot, user_id) and DS_VERIFICATION == True:
                 btn = [[
-                    InlineKeyboardButton("Verify ✓", url=await get_token(bot, user_id, f"https://telegram.me/{DS_BOT_USERNAME}?start="))
+                    InlineKeyboardButton("𝗩𝗘𝗥𝗜𝗙𝗬 ✅", url=await get_token(bot, user_id, f"https://telegram.me/{DS_BOT_USERNAME}?start="))
                 ],[
-                    InlineKeyboardButton("How To Verify", url=DS_VERIFY_TUTORIAL)
+                    InlineKeyboardButton("𝗛𝗢𝗪 𝗧𝗢 𝗩𝗘𝗥𝗜𝗙𝗬 🔓", url=DS_VERIFY_TUTORIAL)
                 ]]
                 k = await message.reply_text(
                         text=VERIFICATION_TEXT.format(message.from_user.mention),
@@ -139,7 +139,7 @@ async def handle_request(bot, message):
                     chat_id=message.chat.id,
                     from_chat_id=channel,
                     message_id=file['msg_id'],
-                    caption=f"""<b>Powered By <a href='https://t.me/AdultxPornBot'>𝘈𝘥𝘶𝘭𝘵 𝘡𝘰𝘯𝘦 💦</a></b>\n\n<blockquote>This Message Will Be Deleted In 10 Minutes Due To Copyright Issue So Save It Somewhere.</blockquote>"""
+                    caption=f"""<b>Powered By <a href='https://t.me/Pronwahbot'>𝐏ʀᴏɴᴡᴀʜ !</a></b>\n\n<blockquote>This Message Will Be Deleted In 10 Minutes Due To Copyright Issue So Save It Somewhere.</blockquote>"""
                 )
             await asyncio.sleep(600)
             await qw.delete()
@@ -154,9 +154,9 @@ async def handle_request(bot, message):
         if not await db.has_premium_access(user_id):
             if not await check_verification(bot, user_id) and DS_VERIFICATION == True:
                 btn = [[
-                    InlineKeyboardButton("Verify ✓", url=await get_token(bot, user_id, f"https://telegram.me/{DS_BOT_USERNAME}?start="))
+                    InlineKeyboardButton(" 𝗩𝗘𝗥𝗜𝗙𝗬 ✅", url=await get_token(bot, user_id, f"https://telegram.me/{DS_BOT_USERNAME}?start="))
                 ],[
-                    InlineKeyboardButton("How To Open Link & Verify", url=DS_VERIFY_TUTORIAL)
+                    InlineKeyboardButton("𝗛𝗢𝗪 𝗧𝗢 𝗩𝗘𝗥𝗜𝗙𝗬 🔓", url=DS_VERIFY_TUTORIAL)
                 ]]
                 i = await message.reply_text(
                         text=VERIFICATION_TEXT.format(message.from_user.mention),
@@ -181,7 +181,7 @@ async def handle_request(bot, message):
                     chat_id=message.chat.id,
                     from_chat_id=channel,
                     message_id=file['msg_id'],
-                    caption=f"""<b>Powered By <a href='https://t.me/AdultxPornBot'>𝘈𝘥𝘶𝘭𝘵 𝘡𝘰𝘯𝘦 💦</a></b>\n\n<blockquote>This Message Will Be Deleted In 10 Minutes Due To Copyright Issue So Save It Somewhere.</blockquote>"""
+                    caption=f"""<b>Powered By <a href='https://t.me/Pronwahbot'>𝐏ʀᴏɴᴡᴀʜ !</a></b>\n\n<blockquote>This Message Will Be Deleted In 10 Minutes Due To Copyright Issue So Save It Somewhere.</blockquote>"""
             )
             await asyncio.sleep(600)
             await la.delete()
@@ -223,7 +223,7 @@ async def handle_request(bot, message):
     
     elif "get premium" in text: 
         buttons = [[
-            InlineKeyboardButton('Buy ✓', url='https://t.me/NoOneIsMinee')
+            InlineKeyboardButton('𝗕𝗨𝗬 𝗥𝗘𝗣𝗢 ✅', url='https://t.me/exzmc')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_text(text=SUBS_TXT,
@@ -232,7 +232,7 @@ async def handle_request(bot, message):
 
     elif "bot & repo details" in text:
         buttons = [[
-            InlineKeyboardButton('Buy Repo ✓', url='http://t.me/NoOneIsMinee')
+            InlineKeyboardButton('𝗕𝗨𝗬 𝗥𝗘𝗣𝗢 ✅', url='http://t.me/exzmc')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         c = await message.reply_text(text=ABOUT_TXT,
@@ -242,4 +242,4 @@ async def handle_request(bot, message):
         await asyncio.sleep(300)
         await c.delete()
 
-# (C) ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
+# (C) ᯏ 𝚮𝚼𝚸𝚬꧊᱂ ! श्रेष्ठ# Dont Remove Credit
