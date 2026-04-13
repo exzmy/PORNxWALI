@@ -11,7 +11,7 @@ DS_BOT_TOKEN = environ.get("DS_BOT_TOKEN", "7868730175:AAEfxMIVLDyDrs7liOjLLf72T
 DS_BOT_USERNAME = environ.get("DS_BOT_USERNAME", "PronwahBot") # bot username without @
 DS_LOG_CHANNEL = int(environ.get("DS_LOG_CHANNEL", "-1003965675122"))
 DS_STICKER = environ.get("DS_STICKER", "")
-DS_PIC = environ.get('DS_PIC', 'https://envs.sh/k-.jpg/HGBOTZ.jpg')
+DS_PIC = environ.get('DS_PIC', 'https://ibb.co/WvPZk9Kt')
 
 # Database Channel For Text Or Caption Store 
 DS_DESI_FILE_CHANNEL = int(environ.get("DS_DESI_FILE_CHANNEL", "-1003985793402"))
