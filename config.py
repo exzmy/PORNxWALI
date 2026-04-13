@@ -24,7 +24,7 @@ PREMIUM_LIMIT_VIDESI = 20
 # Bot Admins
 try:
     DS_ADMINS=[]
-    for x in (environ.get("DS_ADMINS", "8561142779 8221559270 7125448912").split()):
+    for x in (environ.get("DS_ADMINS", "8561142779").split()):
         DS_ADMINS.append(int(x))
 except ValueError:
       raise Exception("Your Admins list does not contain valid integers.")
