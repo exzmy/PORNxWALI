@@ -30,7 +30,7 @@ except ValueError:
       raise Exception("Your Admins list does not contain valid integers.")
     
 # Mongodb Database 
-DS_DB_URI = environ.get("DS_DB_URI", "")
+DS_DB_URI = environ.get("DS_DB_URI", "mongodb+srv://Pronwah:Pronwah@1232@cluster0.zusck72.mongodb.net/?appName=Cluster0")
 DS_DB_NAME = environ.get("DS_DB_NAME", "Pornwah-DB")
 
 # Force subscribe channel 
