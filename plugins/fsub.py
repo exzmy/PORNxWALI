@@ -1,4 +1,4 @@
-# (c) @Sanchit0102 & ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
+# (c) @Sanchit0102 & ᯏ 𝚮𝚼𝚸𝚬꧊᱂ ! श्रेष्ठ # Dont Remove Credit
 
 # ===================== [ importing Requirements ] ===================== #
 
