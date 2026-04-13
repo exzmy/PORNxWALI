@@ -1,4 +1,4 @@
-# (c) ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
+# (c) ᯏ 𝚮𝚼𝚸𝚬꧊᱂ ! श्रेष्ठ # Dont Remove Credit
 
 from pyrogram import Client, filters
 from config import DS_DESI_FILE_CHANNEL, DS_VIDESI_FILE_CHANNEL
@@ -26,4 +26,4 @@ async def save_videsi(_, message):
             tag="videsi"
         )
 
-# (c) ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
+# (c) ᯏ 𝚮𝚼𝚸𝚬꧊᱂ ! श्रेष्ठ# Dont Remove Credit
