@@ -33,19 +33,19 @@ async def add_redeem_code(client, message):
 
         codes_text = '\n'.join(f"➔ <code>/redeem {code}</code>" for code in codes)
         response_text = f"""
-<b>Gɪғᴛᴄᴏᴅᴇ Gᴇɴᴇʀᴀᴛᴇᴅ ✅
-Aᴍᴏᴜɴᴛ:</b> {num_codes}
+<b>𝗚𝗜𝗙𝗧𝗖𝗢𝗗𝗘 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 ✅
+𝗔𝗠𝗢𝗨𝗡𝗧:</b> {num_codes
 
 {codes_text}
 <b>Duration:</b> {time}
 
-🔰<u>𝗥𝗲𝗱𝗲𝗲𝗺 𝗜𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻</u>🔰
+🔰<u>𝗥𝗘𝗗𝗘𝗘𝗠 𝗜𝗡𝗦𝗧𝗥𝗨𝗖𝗧𝗜𝗢𝗡𝗦/u>🔰
 <b>𝙹𝚞𝚜𝚝 𝚌𝚕𝚒𝚌𝚔 𝚝𝚑𝚎 𝚊𝚋𝚘𝚟𝚎 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚘𝚙𝚢 𝚊𝚗𝚍 𝚝𝚑𝚎𝚗 𝚜𝚎𝚗𝚍 𝚝𝚑𝚊𝚝 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚝𝚑𝚎 𝙱𝚘𝚝, 𝚝𝚑𝚊𝚝'𝚜 𝚒𝚝 🔥</b>"""
 
         keyboard = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Rᴇᴅᴇᴇᴍ Hᴇʀᴇ ✅️", url=f"http://t.me/{DS_BOT_USERNAME}")],
-                [InlineKeyboardButton("Aɴʏ Qᴜᴇʀʏ ❔", url="https://t.me/xAkairo")]
+                [InlineKeyboardButton("𝗥𝗘𝗗𝗘𝗘𝗠 𝗛𝗘𝗥𝗘 ✅️", url=f"http://t.me/{DS_BOT_USERNAME}")],
+                [InlineKeyboardButton("𝗔𝗡𝗬 𝗤𝗨𝗔𝗥𝗬❔", url="https://t.me/exzmc")]
             ]
         )
 
