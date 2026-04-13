@@ -15,23 +15,23 @@ async def checkSub(bot, message):
     try:
         user =await bot.get_chat_member(DS_AUTH_CHANNEL, userid)
         if user.status == enums.ChatMemberStatus.BANNED:
-            await message.reply_text("**<i>Sorry, You're Banned. Contact my [Developer](https://t.me/NoOneIsMinee') to get unbanned.**</i>", disable_web_page_preview=True)
+            await message.reply_text("**<i>Sorry, You're Banned. Contact my [𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥!!]('https://t.me/exzmc') to get unbanned.**</i>", disable_web_page_preview=True)
             return False
         return True
     except UserNotParticipant:
         invite_link = await bot.export_chat_invite_link(DS_AUTH_CHANNEL)
         join_button = InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('⛔️ Jᴏɪɴ Cʜᴀɴɴᴇʟ ⛔️', url=invite_link)
+            InlineKeyboardButton('⛔️ 𝗝𝗢𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ⛔️', url=invite_link)
             ],[
-            InlineKeyboardButton('♻️ Rᴇғʀᴇsʜ ♻️', url=f'https://t.me/{DS_BOT_USERNAME}?start=True')
+            InlineKeyboardButton('♻️ 𝗥𝗘𝗙𝗥𝗘𝗦𝗛 ♻️', url=f'https://t.me/{DS_BOT_USERNAME}?start=True')
             ]
         ])
         await message.reply_text("**<i>Please Join My Updates Channel to use this Bot!**\n**Due to Overload, Only Channel Subscribers can use this Bot!</i>**", reply_markup=join_button)
         return False
     except Exception as e:
         print(e)
-        await message.reply_text("Something went wrong. Contact my [Developer](https://t.me/NoOneIsMinee').")
+        await message.reply_text("Something went wrong. Contact my [𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥!!]('https://t.me/exzmc').")
         return False
     
 
