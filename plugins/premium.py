@@ -34,7 +34,7 @@ async def add_redeem_code(client, message):
         codes_text = '\n'.join(f"➔ <code>/redeem {code}</code>" for code in codes)
         response_text = f"""
 <b>𝗚𝗜𝗙𝗧𝗖𝗢𝗗𝗘 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗘𝗗 ✅
-𝗔𝗠𝗢𝗨𝗡𝗧:</b> {num_codes
+𝗔𝗠𝗢𝗨𝗡𝗧:</b> {num_codes}
 
 {codes_text}
 <b>Duration:</b> {time}
