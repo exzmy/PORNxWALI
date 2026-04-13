@@ -40,6 +40,6 @@ DS_AUTH_CHANNEL = int(environ.get('DS_AUTH_CHANNEL', '-1003965675122')) # give y
 DS_API = environ.get("DS_API", "f454aa0a0473907a126cdc6763f5dc53361c1c7a") # shortlink api
 DS_URL = environ.get("DS_URL", "shortxlinks.com") # shortlink domain without https://
 DS_VERIFY_TUTORIAL = environ.get("DS_VERIFY_TUTORIAL", "https://t.me/How_to_open_links_dbyte") # how to open link 
-DS_VERIFICATION = bool(environ.get("DS_VERIFICATION", True)) # set True Or False and make sure spelling is correct and first letter capital.
+DS_VERIFICATION = bool(environ.get("DS_VERIFICATION", False)) # set True Or False and make sure spelling is correct and first letter capital.
 
 # (c) ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
