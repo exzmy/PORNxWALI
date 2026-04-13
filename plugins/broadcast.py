@@ -1,4 +1,4 @@
-# (c) ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
+# (c) ᯏ 𝚮𝚼𝚸𝚬꧊᱂ ! श्रेष्ठ # Dont Remove Credit
 
 from pyrogram.errors import InputUserDeactivated, FloodWait, UserIsBlocked, PeerIdInvalid
 from plugins.database import db
@@ -8,7 +8,7 @@ import asyncio
 import datetime
 import time
 
-# (c) ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
+# (c) ᯏ 𝚮𝚼𝚸𝚬꧊᱂ ! श्रेष्ठ# Dont Remove Credit
 
 async def broadcast_messages(user_id, message):
     try:
@@ -76,4 +76,4 @@ async def verupikkals(bot, message):
     time_taken = datetime.timedelta(seconds=int(time.time()-start_time))
     await sts.edit(f"Broadcast Completed:\nCompleted in {time_taken} seconds.\n\nTotal Users {total_users}\nCompleted: {done} / {total_users}\nSuccess: {success}\nBlocked: {blocked}\nDeleted: {deleted}")
 
-# (c) ՏIᒪᗴᑎT ᘜᕼOՏT ⚡️ # Dont Remove Credit
+# (c) ᯏ 𝚮𝚼𝚸𝚬꧊᱂ ! श्रेष्ठ# Dont Remove Credit
